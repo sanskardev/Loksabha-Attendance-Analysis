@@ -1,19 +1,18 @@
 # Loksabha-Attendance-Analysis
 
 
-Architecture - Here is the architecture diagram of the project.
+## Architecture - Here is the architecture diagram of the project.
 
 ![image](https://github.com/user-attachments/assets/35b6afda-fc0d-40b9-b739-58a8618dc942)
 
 
-Pipelines
-•	PL_HistoryAndOthers: To load ministers’ data, Lok Sabha Sessions data and daily attendance based on Lok Sabha number and sessions till now from API to ADLS.
+## Pipelines
+### PL_LoadFilesToADLS
+To load ministers’ data, Lok Sabha Sessions data and daily attendance based on Lok Sabha number and sessions till now from API to ADLS.
 Run frequency: Once.
-•	PL_DailyAttendance: To load today’s attendance if there was a Lok Sabha Session today.
-Run frequency: Daily when sessions are happening.
 
 
-Report Screenshots
+## Report Screenshots
 Page 1: Overview
 ![image](https://github.com/user-attachments/assets/592ce48c-a4bd-44c8-b7ab-722f809104ad)
 
@@ -28,4 +27,11 @@ Page 3: Insights
 
 Page 4: MP Profiles
 ![image](https://github.com/user-attachments/assets/a0da7b62-5c64-4be0-84e3-c44beb601512)
+
+
+## Future
+Currently, this project has data only till Dec 2024. In the future, another pipeline can be added in this project to keep this well updated.
+### PL_DailyAttendance
+Pipeline to load a particular day’s attendance if there was a Lok Sabha Session on that day.
+Run frequency: Daily when sessions are happening.
 
