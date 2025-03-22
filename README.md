@@ -48,9 +48,5 @@ This page gives extra insights (or fun facts) about the analysis. We can see tha
 ![image](https://github.com/user-attachments/assets/a0da7b62-5c64-4be0-84e3-c44beb601512)
 This is the profile page of the MPs in the Lok Sabha, sitting or former. We can filter using the parties and select the names of the MPs for their information. This page also functions as a drill through page from the other pages whenever an MPs name is clicked.
 
-## Future
-Currently, this project has data only till Dec 2024. In the future, another pipeline can be added in this project to keep this well updated.
-### PL_DailyAttendance
-Pipeline to load a particular day’s attendance if there was a Lok Sabha Session on that day.
-Run frequency: Daily when sessions are happening.
-
+## Future development
+We have only ingested historical daat till Dec 2024. In the future, another pipeline (for example **PL_DailyAttendance**) can be added in this project with trigger set to daily when Lok Sabha Sessions are on-going. This will make this a real time dashboard of the Lok Sabha Attendance of the elected MPs. 
