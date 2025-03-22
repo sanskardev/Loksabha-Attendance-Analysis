@@ -1,5 +1,4 @@
-# Loksabha-Attendance-Analysis
-
+# ETL Pipeline & BI Dashboard for Lok Sabha Attendance Analysis
 
 ## Architecture
 ![image](https://github.com/user-attachments/assets/c3b73d18-b114-44db-8fd9-5d74ac91266f)
